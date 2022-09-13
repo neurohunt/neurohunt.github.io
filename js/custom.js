@@ -1,5 +1,11 @@
 // JavaScript Document
-
+$(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+  
 $(window).load(function () {
     "use strict";
     // makes sure the whole site is loaded
