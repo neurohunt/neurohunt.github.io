@@ -250,6 +250,9 @@ nav li {
     transition: background-color 200ms linear;
   }
 
+#map { height: 180px; }
+
+
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
